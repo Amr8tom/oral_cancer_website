@@ -10,7 +10,7 @@ def preprossing(image):
     Image = Image.reshape((1,) + Image.shape)
     return Image
 
-st.title("Oral Cancer Detection")
+st.title("Duaya for Detection Oral Cancer")
 image_file = st.file_uploader("image upload", type=["png", "jpg", "jpeg"])
 
 # Load model without compiling it
